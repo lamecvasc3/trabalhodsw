@@ -1,9 +1,10 @@
-import { PermanentDrawerLeft } from "./components/SideBar/PermanentDrawerLeft";
+import {NewClient} from "./pages/ClientPage/NewClient/NewClientPage"
+import { ClientPage } from "./pages/ClientPage/Main/ClientPage"
 
 function App() {
   return (
     <div>
-      <PermanentDrawerLeft></PermanentDrawerLeft>
+      <ClientPage></ClientPage>
     </div>
   );
 }
