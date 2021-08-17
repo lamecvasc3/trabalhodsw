@@ -9,12 +9,20 @@ export const useStyles = makeStyles(() => ({
   },
   form: {
       display: "flex",
-      alignContent: "center",
       flexDirection: "column",
       margin: "auto auto",
-      backgroundColor: "#B4E8FF",
       boxShadow: "3px 3px 10px 0px #00000040",
       borderRadius: "10px",
       height: "60vh",
   }, 
+  button: {
+    width: "15vw",
+    margin: "5vh auto",
+    padding: "1vw",
+  },
+  title: {
+    margin: "2vh auto",
+    fontWeight: "600",
+    fontSize: "20px"
+  }
 }));

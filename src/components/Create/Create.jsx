@@ -8,12 +8,12 @@ export const Create = (props) => {
 
     return(
         <div className={style.root}>
-        <BoxHeader title="Cadastrar novo cliente:"></BoxHeader>
+        <BoxHeader title={props.t4}></BoxHeader>
         <Divider/>
           <div className={style.form}>
-          <Typography>Dados de cadastro:</Typography>
-          <Form t1={props.t1} t2={props.t2} t3={props.t3}></Form>
-          <Button variant="contained">Cadastrar</Button>
+            <Typography className={style.title}>Dados de cadastro:</Typography>
+            <Form t1={props.t1} t2={props.t2} t3={props.t3}></Form>
+            <Button className={style.button} variant="contained">Cadastrar</Button>
           </div>
 
         </div>

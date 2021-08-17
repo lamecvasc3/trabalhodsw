@@ -27,7 +27,7 @@ export const useStyles = makeStyles(() => ({
   divButton: {
     display: "flex",
     justifyContent:"space-between",
-    margin: "25vh 5vw",
+    margin: "15vh 5vw",
   },
   button: {
     width: "15vw",

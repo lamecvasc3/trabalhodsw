@@ -40,7 +40,7 @@ export const Box = (props) => {
 
   return (
     <div className={classes.root}>
-    <BoxHeader title={props.title} button/>
+    <BoxHeader title={props.title} button new={props.new}/>
     <TableContainer component={Paper}>
       <Table className={classes.table} size="small" aria-label="Clientes">
         <TableHead>

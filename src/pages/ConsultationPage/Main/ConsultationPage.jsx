@@ -1,16 +1,16 @@
 import React from "react"
 import { SideBar } from "../../../components/SideBar/SideBar"
-import { useStyles } from './ClientPage.style'
+import { useStyles } from './ConsultationPage.style'
 import { Box } from '../../../components/Box/Box'
 
-export const ClientPage = () => {
+export const ConsultationPage = () => {
     const style = useStyles();
-    return (
+    return ( 
     <div>
       <SideBar />
         <main className={style.content}>
         <div className={style.box}> 
-          <Box title="Clientes" th1="Nome" th2="CPF" th3="Telefone" new="novo-cliente"/>
+          <Box title="Consultas" th1="Pet" th2="Funcionário" th3="Custo" new="nova-consulta"/>
       </div>
       </main>
     </div>

@@ -6,21 +6,21 @@ export const Form = (props) => {
 
     return (
         <div className={classes.root}>
-        <FormControl variant="outlined">
+        <FormControl variant="outlined" margin="normal">
             <InputLabel htmlFor="name">{props.t1}</InputLabel>
             <OutlinedInput 
             id="name"
             labelWidth={50}
             />
           </FormControl>
-          <FormControl variant="outlined">
+          <FormControl variant="outlined" margin="normal">
             <InputLabel htmlFor="cpf">{props.t2}</InputLabel>
             <OutlinedInput 
             id="cpf"
             labelWidth={50}
             />
           </FormControl>
-          <FormControl variant="outlined">
+          <FormControl variant="outlined" margin="normal">
           <InputLabel htmlFor="telefone">{props.t3}</InputLabel>
             <OutlinedInput 
             id="telefone"

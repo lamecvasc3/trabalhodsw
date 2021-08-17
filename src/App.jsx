@@ -1,10 +1,9 @@
-import {NewClient} from "./pages/ClientPage/NewClient/NewClientPage"
-import { ClientPage } from "./pages/ClientPage/Main/ClientPage"
+import { Routes } from "./Router/Routes"
 
 function App() {
   return (
     <div>
-      <ClientPage></ClientPage>
+      <Routes></Routes>
     </div>
   );
 }
